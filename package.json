@@ -1,26 +1,28 @@
 {
-  "name": "sen",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.8"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "name": "sen",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4",
+        "react-less-watcher": "^1.1.4",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "2.1.8"
+    },
+    "scripts": {
+        "watch-less": "react-less-watcher -d src",
+        "start": "react-scripts start&npm run watch-less",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
 }
