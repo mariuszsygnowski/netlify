@@ -1,5 +1,6 @@
 import React, { Fragment, Component } from "react";
-import "./styles/components/main.css";
+import "./styles/components/main.less";
+import "./main.less";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";

@@ -3,26 +3,32 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "start": "react-scripts start",
         "build-css": "less-watch-compiler --run-once --main-file=main.less src/styles/components src/styles/components",
-        "watch-css": "npm run build-css && less-watch-compiler --main-file=main.less src/styles/components src/styles/components",
-        "start": "react-scripts start&npm run watch-css",
+        "watch-css": "less-watch-compiler --main-file=main.less src/styles/components src/styles/components",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
     "dependencies": {
         "bootstrap": "^4.3.1",
+        "css-loader": "^2.1.1",
         "jquery": "^3.3.1",
+        "node-sass": "^4.11.0",
         "popper.js": "^1.14.7",
         "react": "^16.8.4",
         "react-dom": "^16.8.4",
         "react-router-dom": "^4.3.1",
         "react-scripts": "2.1.8",
+        "style-loader": "^0.23.1",
         "typescript": "^3.3.3333"
     },
     "devDependencies": {
-        "react-less-watcher": "^1.1.4",
-        "less-watch-compiler": "^1.13.0"
+        "less": "^3.9.0",
+        "less-loader": "^4.1.0",
+        "less-watch-compiler": "^1.13.0",
+        "node-less": "^1.0.0",
+        "react-less-watcher": "^1.1.4"
     },
     "eslintConfig": {
         "extends": "react-app"
