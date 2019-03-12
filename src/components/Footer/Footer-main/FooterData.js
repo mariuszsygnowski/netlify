@@ -3,9 +3,6 @@ import mail from "../../../styles/images/mail.svg";
 import phone from "../../../styles/images/telefon.svg";
 import facebook from "../../../styles/images/facebook.svg";
 export class FooterData extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <section id="our-data">

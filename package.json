@@ -2,16 +2,6 @@
     "name": "sen",
     "version": "0.1.0",
     "private": true,
-    "dependencies": {
-        "bootstrap": "^4.3.1",
-        "jquery": "^1.9.1",
-        "popper.js": "^1.14.7",
-        "react": "^16.8.4",
-        "react-dom": "^16.8.4",
-        "react-less-watcher": "^1.1.4",
-        "react-router-dom": "^4.3.1",
-        "react-scripts": "2.1.8"
-    },
     "scripts": {
         "build-css": "less-watch-compiler --run-once --main-file=main.less src/styles/components src/styles/components",
         "watch-css": "npm run build-css && less-watch-compiler --main-file=main.less src/styles/components src/styles/components",
@@ -19,6 +9,20 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.7",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "2.1.8",
+        "typescript": "^3.3.3333"
+    },
+    "devDependencies": {
+        "react-less-watcher": "^1.1.4",
+        "less-watch-compiler": "^1.13.0"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -28,8 +32,5 @@
         "not dead",
         "not ie <= 11",
         "not op_mini all"
-    ],
-    "devDependencies": {
-        "less-watch-compiler": "^1.13.0"
-    }
+    ]
 }

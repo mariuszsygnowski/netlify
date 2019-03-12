@@ -1,8 +1,5 @@
 import React from "react";
 export class FooterSecondMenu extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <section id="second-menu">

@@ -4,9 +4,6 @@ import baner2 from "../../../styles/images/baner2.jpg";
 import baner3 from "../../../styles/images/baner3.png";
 import baner4 from "../../../styles/images/baner4.png";
 export class Baner extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <section id="baner">
@@ -26,15 +23,15 @@ export class Baner extends React.Component {
           <div class="welcome_images">
             <div class="oneoftwo">
               <div class="left">
-                <img src={baner1} />
+                <img src={baner1} alt="baner1" />
               </div>
             </div>
             <div class="oneoftwo">
               <div class="right">
-                <img src={baner2} />
+                <img src={baner2} alt="baner2" />
                 <div className="right-down">
-                  <img src={baner3} />
-                  <img src={baner4} />
+                  <img src={baner3} alt="baner3" />
+                  <img src={baner4} alt="baner4" />
                 </div>
               </div>
             </div>

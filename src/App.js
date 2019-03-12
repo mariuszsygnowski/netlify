@@ -1,5 +1,4 @@
 import React, { Fragment, Component } from "react";
-import "bootstrap/dist/css/bootstrap.css";
 import "./styles/components/main.css";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";

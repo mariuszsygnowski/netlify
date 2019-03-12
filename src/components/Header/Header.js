@@ -1,12 +1,9 @@
-import React, { Fragment } from "react";
+import React from "react";
 import phoneSolid from "../../styles/images/phone-solid.svg";
 import logoSeniorCare from "../../styles/images/LogoSeniorCare.svg";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <header>
@@ -14,7 +11,7 @@ export class Header extends React.Component {
           <div class="wrapper">
             <div class="header_contact_data">
               <div class="header_telephone_icon">
-                <img src={phoneSolid} />
+                <img src={phoneSolid} alt="phoneSolid" />
               </div>
               <p>
                 <a href="tel:+48725658420"> +48 725 658 420</a>
@@ -25,7 +22,7 @@ export class Header extends React.Component {
         <div class="main_bar">
           <div class="wrapper">
             <div class="logo">
-              <img src={logoSeniorCare} />
+              <img src={logoSeniorCare} alt="logoSeniorCare" />
             </div>
             <nav>
               <ul>

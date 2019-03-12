@@ -4,9 +4,6 @@ import services2 from "../../../styles/images/services2.svg";
 import services3 from "../../../styles/images/services3.svg";
 import services4 from "../../../styles/images/services4.svg";
 export class ServicesDetails extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <section id="our-services-details">
