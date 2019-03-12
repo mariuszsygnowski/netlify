@@ -3,6 +3,9 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^1.9.1",
+        "popper.js": "^1.14.7",
         "react": "^16.8.4",
         "react-dom": "^16.8.4",
         "react-less-watcher": "^1.1.4",
@@ -10,8 +13,9 @@
         "react-scripts": "2.1.8"
     },
     "scripts": {
-        "watch-less": "react-less-watcher -d src",
-        "start": "react-scripts start&npm run watch-less",
+        "build-css": "less-watch-compiler --run-once --main-file=main.less src/styles/components src/styles/components",
+        "watch-css": "npm run build-css && less-watch-compiler --main-file=main.less src/styles/components src/styles/components",
+        "start": "react-scripts start&npm run watch-css",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
@@ -24,5 +28,8 @@
         "not dead",
         "not ie <= 11",
         "not op_mini all"
-    ]
+    ],
+    "devDependencies": {
+        "less-watch-compiler": "^1.13.0"
+    }
 }

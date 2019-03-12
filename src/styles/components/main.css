@@ -610,3 +610,162 @@ section#bottom-bar .box-bottom-bar p {
   line-height: 23px;
   font-family: "OpenSansRegular";
 }
+section#contact-label {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #79d1c0;
+  padding: 12px 0px;
+}
+section#contact-label .white-box {
+  width: 580px;
+  height: 87px;
+  background: #fff;
+  margin: 0px auto;
+}
+section#contact-label .white-box h1 {
+  font-size: 43px;
+  font-weight: 50;
+  color: #79d1c0;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 87px;
+  font-family: "OpenSansLight";
+  text-align: center;
+}
+section#contact {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #efefef;
+  padding: 35px 0px;
+}
+section#contact .our-contact {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+section#contact .our-contact .one-of-two {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 0 0%;
+}
+@media only screen and (min-width: 992px) {
+  section#contact .our-contact .one-of-two {
+    display: inline;
+    float: left;
+    width: 50%;
+    margin: 0 0%;
+  }
+}
+section#contact .our-contact .one-of-two .box-contact {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #f62b2b;
+}
+section#contact .our-contact .one-of-two .box-contact h1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 28px;
+  font-family: "OpenSansRegular";
+  text-align: center;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: blue;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 0 0%;
+}
+@media only screen and (min-width: 992px) {
+  section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data {
+    display: inline;
+    float: left;
+    width: 50%;
+    margin: 0 0%;
+  }
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .left-data {
+  width: 100%;
+  height: auto;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .left-data .box-data {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .left-data .box-data .box-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .left-data .box-data .box-icon img {
+  width: 100%;
+  height: auto;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .left-data .box-data p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 28px;
+  font-family: "OpenSansSemiBold";
+  text-align: center;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .right-data {
+  width: 100%;
+  height: 100px;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .right-data .box-data {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .right-data .box-data .box-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .right-data .box-data .box-icon img {
+  width: 100%;
+  height: auto;
+}
+section#contact .our-contact .one-of-two .box-contact .contact-data .one-of-two-data .right-data .box-data p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 28px;
+  font-family: "OpenSansSemiBold";
+  text-align: center;
+}
+section#contact .our-contact .one-of-two .form {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+@media only screen and (min-width: 992px) {
+  section#contact .our-contact .one-of-two .form h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-family: "OpenSansRegular";
+    text-align: center;
+  }
+}

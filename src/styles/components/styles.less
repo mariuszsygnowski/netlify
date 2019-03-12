@@ -89,6 +89,7 @@
 @white: #fff;
 @gray: #efefef;
 @light-green: #c5f2e9;
+@red: #f62b2b;
 
 .wrapper {
   max-width: 1170px;
@@ -432,6 +433,135 @@ section#bottom-bar {
     p {
       .p(10px, 400, @light-green, none, uppercase, 23px);
       font-family: "OpenSansRegular";
+    }
+  }
+}
+
+section#contact-label {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: @green;
+  padding: 12px 0px;
+  .white-box {
+    width: 580px;
+    height: 87px;
+    background: @white;
+    margin: 0px auto;
+    h1 {
+      .p(43px, 50, @green, none, uppercase, 87px);
+      font-family: "OpenSansLight";
+      text-align: center;
+    }
+  }
+}
+
+section#contact {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: @gray;
+  padding: 35px 0px;
+  .our-contact {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .one-of-two {
+      .column(12);
+      @media @tablet {
+        .column(6);
+      }
+      .box-contact {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: @red;
+        h1 {
+          .p(18px, 400, @black, none, uppercase, 28px);
+          font-family: "OpenSansRegular";
+          text-align: center;
+        }
+        .contact-data {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          // padding: 20px 0px;
+          background: blue;
+          .one-of-two-data {
+            .column(12);
+            @media @tablet {
+              .column(6);
+            }
+            .left-data {
+              width: 100%;
+              height: auto;
+              // background: yellow;
+              .box-data {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                // background: green;
+                .box-icon {
+                  width: 100px;
+                  height: 100px;
+                  margin: 0 auto;
+                  margin-bottom: 10px;
+                  img {
+                    width: 100%;
+                    height: auto;
+                  }
+                }
+                p {
+                  .p(16px, 400, @black, none, none, 28px);
+                  font-family: "OpenSansSemiBold";
+                  text-align: center;
+                }
+              }
+            }
+
+            .right-data {
+              width: 100%;
+              height: 100px;
+              // background: orange;
+              .box-data {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                // background: green;
+                .box-icon {
+                  width: 100px;
+                  height: 100px;
+                  margin: 0 auto;
+                  img {
+                    width: 100%;
+                    height: auto;
+                  }
+                }
+                p {
+                  .p(16px, 400, @black, none, none, 28px);
+                  font-family: "OpenSansSemiBold";
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .form {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        // padding: 50px 0px;
+
+        @media@tablet {
+          h1 {
+            .p(18px, 400, @black, none, uppercase, 28px);
+            font-family: "OpenSansRegular";
+            text-align: center;
+          }
+        }
+      }
     }
   }
 }

@@ -25,9 +25,7 @@ export class Header extends React.Component {
         <div class="main_bar">
           <div class="wrapper">
             <div class="logo">
-              <a href="#">
-                <img src={logoSeniorCare} />
-              </a>
+              <img src={logoSeniorCare} />
             </div>
             <nav>
               <ul>
@@ -35,7 +33,7 @@ export class Header extends React.Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Kontakkkkkkt</Link>
+                  <Link to="/contact">Kontakt</Link>
                 </li>
                 {/* <li>
                     <a href="onas.html">O NAS</a>
